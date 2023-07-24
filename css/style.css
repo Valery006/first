@@ -126,7 +126,9 @@ h2{
 	width: 454px;
 	height: 125px;
 	margin: 0 652px 59px 330px;
-	background-color: yellow;
+	background: url('F:/web/2023/css5/css5/img/icon.png'), url('F:/web/2023/css5/css5/img/icon2.png'), url('F:/web/2023/css5/css5/img/icon3.png'), url('F:/web/2023/css5/css5/img/icon4.png');
+	background-repeat: no-repeat;
+	background-position:0px 6px, 0px 41px, 0px 71px, 0px 103px;
 }
 
 .pieceList1{
@@ -195,15 +197,15 @@ h2{
 .button{
 	width: 199px;
 	height: 44px;
-	background-color: #80b7b3;
 	margin: 0 911px 137px 330px;
 	border-radius: 50px;
 	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background: #80b7b3 url('F:/web/2023/css5/css5/img/Shape.png') 157px 15px no-repeat;
 }
 
 .link{
 	display: block;
-	width: 115px;
+	width: 116px;
 	height: 15px;
 	margin: 0 0 0 30px;
 	padding: 2px 0 0 0;
@@ -217,4 +219,5 @@ h2{
 	text-align: left;
 	text-transform: uppercase;
 	letter-spacing: 2.8px;
+/*	background: url('F:/web/2023/css5/css5/img/Shape.png') 130px 10px no-repeat;*/
 }
