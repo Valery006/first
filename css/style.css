@@ -41,7 +41,17 @@ body{
 	width: 1440px;
 	height: 1700px;
 	background-color: #e8e8e8;
+	background: url('F:/web/2023/css5/css5/img/Ellipse.png');
+	background-position: 142px 131px;
+	background-repeat: no-repeat;
+	background-size: 1175px 1049px;
 }
+
+/*.bodyBlock{
+	width: 1440px;
+	height: 1700px;
+	background-color: #e8e8e8;
+}*/
 
 h1{
 	width: 67px;
@@ -78,12 +88,13 @@ h2{
 	height: 561px;
 	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
 	margin: 0 310px 97px 289px;
+	background: url('F:/web/2023/css5/css5/img/light-man.png')center no-repeat, url('F:/web/2023/css5/css5/img/white.png');
 }
 
 .textBlock{
 	width: 736px;
 	height: 257px;
-	margin: 0 370px 64px 334px;
+	margin: 0 370px 62px 334px;
 }
 
 .text1{
@@ -109,4 +120,101 @@ h2{
 	letter-spacing: normal;
 	line-height: 40px;
 	text-align: left;
+}
+
+.listBlock{
+	width: 454px;
+	height: 125px;
+	margin: 0 652px 59px 330px;
+	background-color: yellow;
+}
+
+.pieceList1{
+	display: block;
+	width: 421px;
+	height: 19px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	margin: 0 0 13px 30px;
+}
+
+.pieceList2{
+	display: block;
+	width: 421px;
+	height: 19px;
+	color: #80b7b3;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	margin: 0 0 13px 30px;
+}
+
+.pieceList3{
+	display: block;
+	width: 421px;
+	height: 19px;
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	margin: 0 0 13px 30px;
+}
+
+.pieceList4{
+	display: block;
+	width: 421px;
+	height: 19px;
+	opacity: 0.3;
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	text-decoration: line-through;
+	margin: 0 0 59px 30px;
+}
+
+.button{
+	width: 199px;
+	height: 44px;
+	background-color: #80b7b3;
+	margin: 0 911px 137px 330px;
+	border-radius: 50px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+}
+
+.link{
+	display: block;
+	width: 115px;
+	height: 15px;
+	margin: 0 0 0 30px;
+	padding: 2px 0 0 0;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 40px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
 }
